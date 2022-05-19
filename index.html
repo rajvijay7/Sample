@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <div id="topBar"> <a href ="#" onclick="load_home()"> Home </a> </div>
+    <div id="topBar"> <a href ="#" onclick="load_news()"> News </a> </div>
+    <div id="topBar"> <a href ="#" onclick="load_contact()"> Contact </a> </div>
+    <div id="topBar"> <a href ="#" onclick="load_about()"> About </a> </div>
+    <div id ="content"> </div>
+    <script>
+         function load_home() {
+     document.getElementById("content").innerHTML='<object type="text/html" data="home.html" ></object>';
+}
+
+function load_news() {
+     document.getElementById("content").innerHTML='<object type="text/html" data="news.html" ></object>';
+}
+
+function load_contact() {
+     document.getElementById("content").innerHTML='<object type="text/html" data="contact.html" ></object>';
+}
+
+function load_about() {
+     document.getElementById("content").innerHTML='<object type="text/html" data="about.html" ></object>';
+}
+    </script>
+</body>
+</html>
+
